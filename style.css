@@ -1,0 +1,268 @@
+
+:root {
+    --cafe-oscuro: #27160F;
+    --cafe-medio: #3E2723;
+    --cafe-naranja: #D35400;
+    --cafe-claro: #FAF6F0;
+    --cafe-borde: #D7CCC8;
+    --cafe-fondo-alt: #F3EDE5;
+    --cafe-nav: #27160F;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: var(--cafe-medio);
+    background-color: var(--cafe-claro);
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+
+h1, h2 {
+    color: var(--cafe-oscuro);
+    margin-top: 1.5em;
+}
+
+h1 {
+    font-size: 1.7em;
+    text-align: center;
+    border-bottom: 2px solid var(--cafe-naranja);
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-left: 4px solid var(--cafe-naranja);
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 0.85em;
+    color: var(--cafe-oscuro);
+    border-bottom: 2px solid var(--cafe-naranja);
+    padding-bottom: 4px;
+    margin: 0 0 8px 0;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+
+#encabezado {
+    background-color: var(--cafe-nav);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+.nav-lista {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-lista a {
+    color: var(--cafe-claro);
+    text-decoration: none;
+    font-size: 0.75em;
+}
+
+.nav-lista a:hover {
+    color: var(--cafe-naranja);
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.Tabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--cafe-oscuro);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--cafe-borde);
+}
+
+th {
+    background-color: #EAE0D5;
+    color: var(--cafe-oscuro);
+}
+
+tr:hover {
+    background-color: #F5EFEB;
+}
+
+.seccion-contenido {
+    margin-bottom: 2em;
+}
+
+.seccion-hero {
+    text-align: center;
+}
+
+#datos-rapidos,
+#como-preparar {
+    background-color: var(--cafe-fondo-alt);
+    border-radius: 8px;
+    padding: 20px 24px;
+}
+
+.lista-pasos,
+.lista-datos {
+    margin: 10px 0 0 20px;
+    padding: 0;
+    font-size: 0.85em;
+}
+
+.lista-pasos li,
+.lista-datos li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.tarjeta {
+    background-color: white;
+    border: 1px solid var(--cafe-borde);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.tarjeta p {
+    font-size: 0.72em;
+    line-height: 1.4;
+}
+
+.etiqueta {
+    font-size: 0.62em;
+    background-color: #EAE0D5;
+    color: #6D4C41;
+    padding: 3px 8px;
+    border-radius: 20px;
+}
+
+.formulario-contenedor {
+    background-color: white;
+    border: 1px solid var(--cafe-borde);
+    border-radius: 8px;
+    padding: 24px;
+    margin-top: 16px;
+}
+
+.campo-grupo {
+    margin-bottom: 16px;
+}
+
+.campo-grupo label {
+    display: block;
+    font-size: 0.72em;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: var(--cafe-oscuro);
+}
+
+.campo-grupo input,
+.campo-grupo select,
+.campo-grupo textarea {
+    width: 100%;
+    font-size: 0.72em;
+    padding: 10px 12px;
+    border: 1px solid var(--cafe-borde);
+    border-radius: 6px;
+    background-color: var(--cafe-claro);
+    color: var(--cafe-medio);
+    font-family: sans-serif;
+}
+
+.campo-grupo input:focus,
+.campo-grupo select:focus,
+.campo-grupo textarea:focus {
+    outline: none;
+    border-color: var(--cafe-naranja);
+}
+
+.campo-grupo textarea {
+    resize: vertical;
+}
+
+.btn-enviar {
+    background-color: var(--cafe-naranja);
+    color: var(--cafe-claro);
+    border: none;
+    padding: 12px 28px;
+    font-size: 0.75em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.btn-enviar:hover {
+    background-color: #A84300;
+}
+
+q {
+    font-style: italic;
+    color: var(--cafe-naranja);
+}
+
+.enlace-externo {
+    color: var(--cafe-naranja);
+}
+
+address {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid var(--cafe-borde);
+    font-size: 0.8em;
+}
+
+#pie-pagina {
+    background-color: #EAE0D5;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.7em;
+    color: #6D4C41;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: var(--cafe-naranja);
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
